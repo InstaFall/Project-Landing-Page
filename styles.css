@@ -174,3 +174,9 @@ padding-bottom: 1em;
     color: rgb(119, 116, 116);
 }
 
+footer {
+    background-color:#1F2937;
+    padding:1em 0;
+    text-align: center;
+    color: #E5E7EB;
+}
