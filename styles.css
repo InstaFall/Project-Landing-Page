@@ -123,6 +123,7 @@ main {
     justify-content: center;
 }
 
+/* Thor Quote Styling */
 
 article {
     margin:2em 0;
@@ -143,8 +144,12 @@ article {
 .author {
     display:block;
     text-align: end;
+    font-style: normal;
     font-weight: bold;
 }
+ 
+
+/* Bottom Blue Section Styling */
 
 .bottomContainer {
     display:flex;
@@ -174,6 +179,8 @@ padding-bottom: 1em;
 .bottomButton a:hover {
     color: rgb(119, 116, 116);
 }
+
+/* Footer Styling*/
 
 footer {
     background-color:#1F2937;
