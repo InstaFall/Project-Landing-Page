@@ -36,15 +36,16 @@ header h2 {
 .navContainer {
     font-size: 18px;
     color: #E5E7EB;
-    flex: 1 1 auto;
-    padding-left: 14.5em;
+    padding-right: 10.6666667em;
 
     display:flex;
     gap: 2em;
 }
+
  a {
     text-decoration: none;
 }
+
 .navContainer a:link{
     color: #E5E7EB;
 }
@@ -83,6 +84,7 @@ main {
 }
 
 .signupButton {
+    display: inline-block;
     padding: 0.5em 1em;
     margin: 2em 0;
     background-color:#3882F6;
@@ -90,8 +92,15 @@ main {
     font-weight: bold;
 }
 
+.signupButton:visited {
+    color:rgb(243, 240, 240);
+}
+
+.signupButton:hover{
+    color:rgb(209, 206, 206);
+}
 .introImage {
-    max-width: 48%;
+    max-height: 100%;
     height: auto;
     float: right;
     margin-left: 0.5em; 
@@ -112,22 +121,24 @@ main {
     justify-content: center;
 }
 
-.randomImages div {
-width: 100px;
-}
 
 article {
-    /* width: 100%;*/ 
     background-color: #E5E7EB;
 }
 
-article > p {
+.quote {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+}
+.quote > p {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
 }
 
-article p:nth-child(2) {
+.quote p:nth-child(2) {
+    text-align: end;
     font-weight:bold;
 }
 
