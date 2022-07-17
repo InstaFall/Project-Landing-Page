@@ -164,11 +164,12 @@ padding-bottom: 1em;
 
 .bottomButton {
     border-radius: 8px;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 1em;
 } 
 .bottomButton a:link, .bottomButton a:visited {
     color: white;
+    font-weight: bold;
 }
 .bottomButton a:hover {
     color: rgb(119, 116, 116);
