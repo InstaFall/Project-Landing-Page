@@ -13,7 +13,9 @@ img {
     max-width: 300px;
     height: auto;
 }
-
+a:hover {
+    color:rgb(119, 116, 116);
+}
 /* HEADER STYLING */
 header {
     display:flex;
@@ -123,13 +125,14 @@ main {
 
 
 article {
+    margin:2em 0;
     background-color: #E5E7EB;
 }
 
 .quote {
     max-width: 70%;
     margin: 0 auto;
-    padding: 1em;
+    padding: 4em;
 }
 .quote > p {
     font-size: 36px;
@@ -137,8 +140,37 @@ article {
     font-weight: lighter;
 }
 
-.quote p:nth-child(2) {
+.author {
+    display:block;
     text-align: end;
-    font-weight:bold;
+    font-weight: bold;
+}
+
+.bottomContainer {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin: 5em auto;
+    border-radius: 12px;
+    background-color:#3882F6;
+    color:#E5E7EB;
+} 
+
+.bottomText {
+padding-top: 1em;
+padding-bottom: 1em;
+}
+
+.bottomButton {
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 1em;
+} 
+.bottomButton a:link, .bottomButton a:visited {
+    color: white;
+}
+.bottomButton a:hover {
+    color: rgb(119, 116, 116);
 }
 
